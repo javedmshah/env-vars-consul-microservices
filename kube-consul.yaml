@@ -1,0 +1,34 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: consul
+  labels:
+    name: consul
+spec:
+  containers:
+  - name: consul
+    image: consul
+    imagePullPolicy: IfNotPresent
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+      limits:
+        cpu: 1000m
+        memory: 512Mi
+    env:
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: consul
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 8500
+      targetPort: 8500
+      nodePort: 31100
+  selector:
+    name: consul
