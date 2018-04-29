@@ -1,0 +1,227 @@
+[
+	{
+		"key": "ms-authn/CLIENT_CREDENTIALS_STORE",
+		"flags": 0,
+		"value": "anNvbg=="
+	},
+	{
+		"key": "ms-authn/CLIENT_SECRET_SECURITY_SCHEME",
+		"flags": 0,
+		"value": "bm9uZQ=="
+	},
+	{
+		"key": "ms-authn/INFO_ACCOUNT_PASSWORD",
+		"flags": 0,
+		"value": "aW5mbw=="
+	},
+	{
+		"key": "ms-authn/ISSUER_JWK_STORE",
+		"flags": 0,
+		"value": "anNvbg=="
+	},
+	{
+		"key": "ms-authn/METRICS_ACCOUNT_PASSWORD",
+		"flags": 0,
+		"value": "bWV0cmljcw=="
+	},
+	{
+		"key": "ms-authn/TOKEN_AUDIENCE",
+		"flags": 0,
+		"value": "aHR0cHM6Ly9yZXNvdXJjZS5leGFtcGxlLmNvbSxodHRwczovL3ZhbGlkYXRpb24uZXhhbXBsZS5jb20="
+	},
+	{
+		"key": "ms-authn/TOKEN_DEFAULT_EXPIRATION_SECONDS",
+		"flags": 0,
+		"value": "MzYwMA=="
+	},
+	{
+		"key": "ms-authn/TOKEN_ISSUER",
+		"flags": 0,
+		"value": "aHR0cHM6Ly9leGFtcGxlLmNvbQ=="
+	},
+	{
+		"key": "ms-authn/TOKEN_SIGNATURE_JWK_BASE64",
+		"flags": 0,
+		"value": "ZXdvZ0lDQWdJbXRwWkNJZ09pQWliWGxmYUcxaFkxOXJaWGtpTEFvZ0lDQWdJbXQwZVNJZ09pQWlUME5VSWl3S0lDQWdJQ0poYkdjaUlEb2dJa2hUTWpVMklpd0tJQ0FnSUNKcklpQTZJQ0pHWkVaWlJucEZVbmRETW5WRFFrSTBObkJhVVdrMFIwYzROVXgxYWxJNGIySjBMVXRYVWtKSlExWlJJZ3A5Q2c9PQ=="
+	},
+	{
+		"key": "ms-authn/TOKEN_SUPPORTED_ADDITIONAL_CLAIMS",
+		"flags": 0,
+		"value": "YXR0clZhbDE="
+	},
+	{
+		"key": "token-exchange/",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "token-exchange/EXCHANGE_JWT_INTROSPECT_URL",
+		"flags": 0,
+		"value": "aHR0cDovLzE5Mi4xNjguOTkuMTAwOjMwMTAzL3NlcnZpY2UvaW50cm9zcGVjdA=="
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_AUTH_SUBJECT_ID",
+		"flags": 0,
+		"value": "YW1hZG1pbg=="
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_AUTH_SUBJECT_PASSWORD",
+		"flags": 0,
+		"value": "Y2FuZ2V0aW5hbQ=="
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_AUTH_URL",
+		"flags": 0,
+		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9qc29uL3JlYWxtcy9yb290L2F1dGhlbnRpY2F0ZQ=="
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_POLICY_ALLOWED_ACTORS_ATTR",
+		"flags": 0,
+		"value": "bWF5X2FjdG9ycw=="
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_POLICY_AUDIENCE_ATTR",
+		"flags": 0,
+		"value": "YXVk"
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_POLICY_COPY_ADDITIONAL_ATTR",
+		"flags": 0,
+		"value": "dHJ1ZQ=="
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_POLICY_SCOPE_ATTR",
+		"flags": 0,
+		"value": "c2Nw"
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_POLICY_SET_ID",
+		"flags": 0,
+		"value": "cmVzb3VyY2VfcG9saWNpZXM="
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_POLICY_SUBJECT_ATTR",
+		"flags": 0,
+		"value": "dWlk"
+	},
+	{
+		"key": "token-exchange/EXCHANGE_OPENAM_POLICY_URL",
+		"flags": 0,
+		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9qc29uL3JlYWxtcy9yb290L3BvbGljaWVz"
+	},
+	{
+		"key": "token-exchange/INFO_ACCOUNT_PASSWORD",
+		"flags": 0,
+		"value": "aW5mbw=="
+	},
+	{
+		"key": "token-exchange/ISSUER_JWK_JSON_ISSUER_URI",
+		"flags": 0,
+		"value": "aHR0cHM6Ly9leGFtcGxlLmNvbQ=="
+	},
+	{
+		"key": "token-exchange/ISSUER_JWK_JSON_JWK_BASE64",
+		"flags": 0,
+		"value": "ZXdvZ0lDQWdJbXRwWkNJZ09pQWliWGxmYUcxaFkxOXJaWGtpTEFvZ0lDQWdJbXQwZVNJZ09pQWlUME5VSWl3S0lDQWdJQ0poYkdjaUlEb2dJa2hUTWpVMklpd0tJQ0FnSUNKcklpQTZJQ0pHWkVaWlJucEZVbmRETW5WRFFrSTBObkJhVVdrMFIwYzROVXgxYWxJNGIySjBMVXRYVWtKSlExWlJJZ3A5Q2c9PQ=="
+	},
+	{
+		"key": "token-exchange/ISSUER_JWK_OPENID_URL",
+		"flags": 0,
+		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9vYXV0aDIvLndlbGwta25vd24vb3BlbmlkLWNvbmZpZ3VyYXRpb24="
+	},
+	{
+		"key": "token-exchange/ISSUER_JWK_STORE",
+		"flags": 0,
+		"value": "anNvbg=="
+	},
+	{
+		"key": "token-exchange/METRICS_ACCOUNT_PASSWORD",
+		"flags": 0,
+		"value": "bWV0cmljcw=="
+	},
+	{
+		"key": "token-exchange/TOKEN_EXCHANGE_POLICIES",
+		"flags": 0,
+		"value": "b3BlbmFtLGpzb24="
+	},
+	{
+		"key": "token-exchange/TOKEN_EXCHANGE_REQUIRED_SCOPE",
+		"flags": 0,
+		"value": "ZXhjaGFuZ2U="
+	},
+	{
+		"key": "token-exchange/TOKEN_ISSUER",
+		"flags": 0,
+		"value": "aHR0cHM6Ly9mcnRva2VuZXhjaGFuZ2UuZXhhbXBsZS5jb20="
+	},
+	{
+		"key": "token-exchange/TOKEN_SIGNATURE_JWK_BASE64",
+		"flags": 0,
+		"value": "ZXdvZ0lDQWdJbXRwWkNJZ09pQWliWGxmYUcxaFkxOXJaWGtpTEFvZ0lDQWdJbXQwZVNJZ09pQWlUME5VSWl3S0lDQWdJQ0poYkdjaUlEb2dJa2hUTWpVMklpd0tJQ0FnSUNKcklpQTZJQ0pHWkVaWlJucEZVbmRETW5WRFFrSTBObkJhVVdrMFIwYzROVXgxYWxJNGIySjBMVXRYVWtKSlExWlJJZ3A5Q2c9PQ=="
+	},
+	{
+		"key": "token-validation/",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "token-validation/INFO_ACCOUNT_PASSWORD",
+		"flags": 0,
+		"value": "aW5mbw=="
+	},
+	{
+		"key": "token-validation/INTROSPECTION_OPENAM_CLIENT_ID",
+		"flags": 0,
+		"value": "bXlvYXV0aGNsaWVudA=="
+	},
+	{
+		"key": "token-validation/INTROSPECTION_OPENAM_CLIENT_SECRET",
+		"flags": 0,
+		"value": "bXlvYXV0aGNsaWVudA=="
+	},
+	{
+		"key": "token-validation/INTROSPECTION_OPENAM_ID_TOKEN_INFO_URL",
+		"flags": 0,
+		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9vYXV0aDIvcmVhbG1zL3Jvb3QvcmVhbG1zL3Rlc3QvaWR0b2tlbmluZm8="
+	},
+	{
+		"key": "token-validation/INTROSPECTION_OPENAM_SESSION_URL",
+		"flags": 0,
+		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9qc29uL3Nlc3Npb25z"
+	},
+	{
+		"key": "token-validation/INTROSPECTION_OPENAM_URL",
+		"flags": 0,
+		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9vYXV0aDIvcmVhbG1zL3Jvb3QvcmVhbG1zL3Rlc3QvaW50cm9zcGVjdA=="
+	},
+	{
+		"key": "token-validation/INTROSPECTION_REQUIRED_SCOPE",
+		"flags": 0,
+		"value": "aW50cm9zcGVjdA=="
+	},
+	{
+		"key": "token-validation/INTROSPECTION_SERVICES",
+		"flags": 0,
+		"value": "anNvbixvcGVuYW0="
+	},
+	{
+		"key": "token-validation/ISSUER_JWK_JSON_ISSUER_URI",
+		"flags": 0,
+		"value": "aHR0cHM6Ly9leGFtcGxlLmNvbQ=="
+	},
+	{
+		"key": "token-validation/ISSUER_JWK_JSON_JWK_BASE64",
+		"flags": 0,
+		"value": "ZXdvZ0lDQWdJbXRwWkNJZ09pQWliWGxmYUcxaFkxOXJaWGtpTEFvZ0lDQWdJbXQwZVNJZ09pQWlUME5VSWl3S0lDQWdJQ0poYkdjaUlEb2dJa2hUTWpVMklpd0tJQ0FnSUNKcklpQTZJQ0pHWkVaWlJucEZVbmRETW5WRFFrSTBObkJhVVdrMFIwYzROVXgxYWxJNGIySjBMVXRYVWtKSlExWlJJZ3A5Q2c9PQ=="
+	},
+	{
+		"key": "token-validation/ISSUER_JWK_STORE",
+		"flags": 0,
+		"value": "anNvbg=="
+	},
+	{
+		"key": "token-validation/METRICS_ACCOUNT_PASSWORD",
+		"flags": 0,
+		"value": "bWV0cmljcw=="
+	}
+]
