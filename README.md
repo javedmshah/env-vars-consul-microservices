@@ -1,6 +1,7 @@
 # Config-as-an-artifact using Hashicorp Consul and Envconsul
 
-This repo demonstrates how to build an envconsul container for the ForgeRock Identity Microservices.
+This repo demonstrates how to build an envconsul container for the ForgeRock Identity Microservices using base images from Bintray.
+It is required that the starting base images have no entrypoint defined and as such the images tagged BASE-ONLY are used and not the ones tagged 1.0.0-SNAPSHOT. The latter are running jetty containers and therefore cannot be used since we are unable to overlay the envconsul process on to them. The base images are also publicly available.
 
 ## about envconsul
 
@@ -14,8 +15,7 @@ ForgeRock Identity Microservices simply read environment variables as an overrid
 This enables extreme flexibility and portability for services across systems.
 
 ## vault
-Although vault integration is not yet part of this repo, it is coming soon. The demo will show how secrets can be sourced from Vault and made 
-available to the microservice as an environment variable. These would include service accounts used by microservices for connecting
+Although vault integration is not yet part of this repo, it is coming soon. The demo will show how secrets can be sourced from Vault and made available to the microservice as an environment variable. These would include service accounts used by microservices for connecting
 to OpenAM for example.
 
 ## Base image
