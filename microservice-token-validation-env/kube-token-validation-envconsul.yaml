@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ms-token-validation-env
+  labels:
+    name: ms-token-validation-env
+spec:
+  containers:
+  - name: ms-token-validation-env
+    image: forgerock-docker-public.bintray.io/microservice/token-validation:ENVCONSUL
+    imagePullPolicy: IfNotPresent
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+      limits:
+        cpu: 1000m
+        memory: 512Mi
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ms-token-validation-env
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+      nodePort: 30105
+  selector:
+    name: ms-token-validation-env
