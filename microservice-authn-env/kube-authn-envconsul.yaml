@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ms-authn-env
+  labels:
+    name: ms-authn-env
+spec:
+  containers:
+  - name: ms-authn-env
+    image: forgerock-docker-public.bintray.io/microservice/authn:ENVCONSUL
+    imagePullPolicy: IfNotPresent
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+      limits:
+        cpu: 1000m
+        memory: 512Mi
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ms-authn-env
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+      nodePort: 30106
+  selector:
+    name: ms-authn-env
