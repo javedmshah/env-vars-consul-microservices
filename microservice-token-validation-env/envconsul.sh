@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 export SERVICE_HOME=/opt/token-validation-microservice
 export CLASSPATH="$SERVICE_HOME/lib/*:$SERVICE_HOME/framework/*:$SERVICE_HOME/bin/*"
