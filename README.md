@@ -18,5 +18,5 @@ Although vault integration is not yet part of this repo, it is coming soon. The 
 available to the microservice as an environment variable. These would include service accounts used by microservices for connecting
 to OpenAM for example.
 
-## Source
-This repo relies on the maven build directory for the microservices, which is not public.
+## Base image
+The image uses the public base-only images for the microservices which do not contain an entrypoint command. This is necessary to spawn the microservice from a parent envconsul process.
