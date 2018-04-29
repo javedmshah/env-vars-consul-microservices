@@ -5,6 +5,10 @@ metadata:
   labels:
     name: ms-token-validation-env
 spec:
+ hostAliases:
+  - ip: "192.168.99.1"
+    hostnames:
+    - "openam.example.com"
   containers:
   - name: ms-token-validation-env
     image: forgerock-docker-public.bintray.io/microservice/token-validation:ENVCONSUL
