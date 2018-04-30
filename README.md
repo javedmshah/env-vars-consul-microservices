@@ -1,6 +1,8 @@
 # Config-as-an-artifact using Hashicorp Consul and Envconsul
 
 This repo demonstrates how to build an envconsul container for the ForgeRock Identity Microservices using base images from Bintray.
+
+This repo supplements the blog [here](https://forum.forgerock.com/2018/04/runtime-config-for-forgerock-microservices-consul/).
 It is required that the starting base images have no entrypoint defined and as such the images tagged BASE-ONLY are used and not the ones tagged 1.0.0-SNAPSHOT. The latter are running jetty containers and therefore cannot be used since we are unable to overlay the envconsul process on to them. The base images are also publicly available.
 
 ## about envconsul
