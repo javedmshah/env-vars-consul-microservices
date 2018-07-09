@@ -17,4 +17,4 @@ if [ -n "$JAVA_OPTS" ]; then
 fi
 
 # start envconsul with address for consul and use key namespace for token-exchange to spawn new container
-/usr/bin/envconsul -log-level debug -consul=192.168.99.100:31100 -pristine -prefix=token-exchange /bin/sh -c bin/docker-entrypoint.sh 
+/usr/bin/envconsul -log-level debug -consul=$CONSUL_ADDRESS -pristine -prefix=token-exchange /bin/sh -c bin/docker-entrypoint.sh 
