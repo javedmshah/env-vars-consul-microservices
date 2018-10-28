@@ -125,6 +125,11 @@
 		"value": "ZXdvZ0lDQWdJbXRwWkNJZ09pQWliWGxmYUcxaFkxOXJaWGtpTEFvZ0lDQWdJbXQwZVNJZ09pQWlUME5VSWl3S0lDQWdJQ0poYkdjaUlEb2dJa2hUTWpVMklpd0tJQ0FnSUNKcklpQTZJQ0pHWkVaWlJucEZVbmRETW5WRFFrSTBObkJhVVdrMFIwYzROVXgxYWxJNGIySjBMVXRYVWtKSlExWlJJZ3A5Q2c9PQ=="
 	},
 	{
+                "key": "token-validation/TOKEN_SIGNATURE_JWK_BASE64",
+                "flags": 0,
+                "value": "ewogICAgImtpZCIgOiAibXlfaG1hY19rZXkiLAogICAgImt0eSIgOiAiT0NUIiwKICAgICJhbGciIDogIkhTMjU2IiwKICAgICJrIiA6ICJGZEZZRnpFUndDMnVDQkI0NnBaUWk0R0c4NUx1alI4b2J0LUtXUkJJQ1ZRIgp9Cg=="
+        },
+	{
 		"key": "token-exchange/ISSUER_JWK_OPENID_URL",
 		"flags": 0,
 		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9vYXV0aDIvLndlbGwta25vd24vb3BlbmlkLWNvbmZpZ3VyYXRpb24="
