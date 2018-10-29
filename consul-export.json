@@ -57,7 +57,7 @@
 	{
 		"key": "token-exchange/EXCHANGE_JWT_INTROSPECT_URL",
 		"flags": 0,
-		"value": "aHR0cDovLzE5Mi4xNjguOTkuMTAwOjMwMTAzL3NlcnZpY2UvaW50cm9zcGVjdA=="
+		"value": "aHR0cDovL21zdG9rZW52LmlzdGlvLmZvcmdlcm9ja21lc2guY21sL3NlcnZpY2UvaW50cm9zcGVjdA=="
 	},
 	{
 		"key": "token-exchange/EXCHANGE_OPENAM_AUTH_SUBJECT_ID",
@@ -72,7 +72,7 @@
 	{
 		"key": "token-exchange/EXCHANGE_OPENAM_AUTH_URL",
 		"flags": 0,
-		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9qc29uL3JlYWxtcy9yb290L2F1dGhlbnRpY2F0ZQ=="
+		"value": "aHR0cHM6Ly9vcGVuYW0ucHJvZC5mb3JnZXJvY2ttZXNoLm1sL29wZW5hbS9qc29uL3JlYWxtcy9yb290L2F1dGhlbnRpY2F0ZQ=="
 	},
 	{
 		"key": "token-exchange/EXCHANGE_OPENAM_POLICY_ALLOWED_ACTORS_ATTR",
@@ -107,7 +107,7 @@
 	{
 		"key": "token-exchange/EXCHANGE_OPENAM_POLICY_URL",
 		"flags": 0,
-		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9qc29uL3JlYWxtcy9yb290L3BvbGljaWVz"
+		"value": "aHR0cHM6Ly9vcGVuYW0ucHJvZC5mb3JnZXJvY2ttZXNoLm1sL29wZW5hbS9qc29uL3JlYWxtcy9yb290L3BvbGljaWVz"
 	},
 	{
 		"key": "token-exchange/INFO_ACCOUNT_PASSWORD",
@@ -125,14 +125,9 @@
 		"value": "ZXdvZ0lDQWdJbXRwWkNJZ09pQWliWGxmYUcxaFkxOXJaWGtpTEFvZ0lDQWdJbXQwZVNJZ09pQWlUME5VSWl3S0lDQWdJQ0poYkdjaUlEb2dJa2hUTWpVMklpd0tJQ0FnSUNKcklpQTZJQ0pHWkVaWlJucEZVbmRETW5WRFFrSTBObkJhVVdrMFIwYzROVXgxYWxJNGIySjBMVXRYVWtKSlExWlJJZ3A5Q2c9PQ=="
 	},
 	{
-                "key": "token-validation/TOKEN_SIGNATURE_JWK_BASE64",
-                "flags": 0,
-                "value": "ewogICAgImtpZCIgOiAibXlfaG1hY19rZXkiLAogICAgImt0eSIgOiAiT0NUIiwKICAgICJhbGciIDogIkhTMjU2IiwKICAgICJrIiA6ICJGZEZZRnpFUndDMnVDQkI0NnBaUWk0R0c4NUx1alI4b2J0LUtXUkJJQ1ZRIgp9Cg=="
-        },
-	{
 		"key": "token-exchange/ISSUER_JWK_OPENID_URL",
 		"flags": 0,
-		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9vYXV0aDIvLndlbGwta25vd24vb3BlbmlkLWNvbmZpZ3VyYXRpb24="
+		"value": "aHR0cHM6Ly9vcGVuYW0ucHJvZC5mb3JnZXJvY2ttZXNoLm1sL29wZW5hbS9vYXV0aDIvLndlbGwta25vd24vb3BlbmlkLWNvbmZpZ3VyYXRpb24="
 	},
 	{
 		"key": "token-exchange/ISSUER_JWK_STORE",
@@ -187,17 +182,17 @@
 	{
 		"key": "token-validation/INTROSPECTION_OPENAM_ID_TOKEN_INFO_URL",
 		"flags": 0,
-		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9vYXV0aDIvcmVhbG1zL3Jvb3QvcmVhbG1zL3Rlc3QvaWR0b2tlbmluZm8="
+		"value": "aHR0cHM6Ly9vcGVuYW0ucHJvZC5mb3JnZXJvY2ttZXNoLm1sL29wZW5hbS9vYXV0aDIvcmVhbG1zL3Jvb3QvcmVhbG1zL3Rlc3QvaWR0b2tlbmluZm8="
 	},
 	{
 		"key": "token-validation/INTROSPECTION_OPENAM_SESSION_URL",
 		"flags": 0,
-		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9qc29uL3Nlc3Npb25z"
+		"value": "aHR0cHM6Ly9vcGVuYW0ucHJvZC5mb3JnZXJvY2ttZXNoLm1sL29wZW5hbS9qc29uL3Nlc3Npb25z"
 	},
 	{
 		"key": "token-validation/INTROSPECTION_OPENAM_URL",
 		"flags": 0,
-		"value": "aHR0cDovL29wZW5hbS5leGFtcGxlLmNvbTo4MDgwL29wZW5hbS9vYXV0aDIvcmVhbG1zL3Jvb3QvcmVhbG1zL3Rlc3QvaW50cm9zcGVjdA=="
+		"value": "aHR0cHM6Ly9vcGVuYW0ucHJvZC5mb3JnZXJvY2ttZXNoLm1sL29wZW5hbS9vYXV0aDIvcmVhbG1zL3Jvb3QvcmVhbG1zL3Rlc3QvaW50cm9zcGVjdA=="
 	},
 	{
 		"key": "token-validation/INTROSPECTION_REQUIRED_SCOPE",
@@ -228,5 +223,10 @@
 		"key": "token-validation/METRICS_ACCOUNT_PASSWORD",
 		"flags": 0,
 		"value": "bWV0cmljcw=="
+	},
+	{
+		"key": "token-validation/TOKEN_SIGNATURE_JWK_BASE64",
+		"flags": 0,
+		"value": "ewogICAgImtpZCIgOiAibXlfaG1hY19rZXkiLAogICAgImt0eSIgOiAiT0NUIiwKICAgICJhbGciIDogIkhTMjU2IiwKICAgICJrIiA6ICJGZEZZRnpFUndDMnVDQkI0NnBaUWk0R0c4NUx1alI4b2J0LUtXUkJJQ1ZRIgp9Cg=="
 	}
 ]
